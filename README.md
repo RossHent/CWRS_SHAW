@@ -12,7 +12,7 @@ Then, it runs Shaw302.exe with the input files.
 Next, it moves the input files out of the working directory back into the folder they came from.
 Finally, it moves the output files into a newly-created folder, removing the old one if present.
 
-The srcipt is designed with the following file structure in mind:
+Both srcipts are designed with the following file structure in mind:
 
 [overall folder]
 --protocol.xlsx
@@ -21,9 +21,15 @@ The srcipt is designed with the following file structure in mind:
 ----Shaw302.exe
 ----[Inputs]
 ------[Trial001]
+--------[wea]
+----------[rawData]
+------------[daily]
+------------[hourly]
+------------[solar]
 ------[Trial002]
 ------[Trial...]
 ----[Outputs]
 ------[Trial001]
 ------[Trial002]
 ------[Trial...]
+
