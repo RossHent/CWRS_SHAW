@@ -1,7 +1,7 @@
 # CWRS_SHAW
-Data processing, input file generation for SHAW and (future) batch processing of SHAW jobs.
+Data processing, input file generation for SHAW and batch processing of SHAW jobs.
 
-SHAW_weaFile.py is a python script meant to  process and weather input files downloaded from Environment Canada via Cygwin and NASA POWER and combine them into the .wea file format SHAW is looking for.
+SHAW_weaFile.py is meant to  process and weather input files downloaded from Environment Canada via Cygwin and NASA POWER and combine them into the .wea file format SHAW is looking for.
 
 SHAW_batchProc.py is meant to run SHAW multiple times for different cases.
 
